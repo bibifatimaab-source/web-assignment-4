@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Bootstrap Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand fw-bold" href="#">MyPortfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#adaptive">Adaptive Blocks</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#bootstrap">Bootstrap Grid</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Media Queries -->
+    <section class="adaptive-blocks-section" id="adaptive">
+        <h2 style="text-align: center; margin-bottom: 2rem;">Adaptive blocks | Media Queries</h2>
+        <div class="adaptive-blocks">
+            <div class="adaptive-block">
+                <h3>Block 1</h3>
+            </div>
+            <div class="adaptive-block">
+                <h3>Block 2</h3>
+            </div>
+            <div class="adaptive-block">
+                <h3>Block 3</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Card Row Section -->
+    <section class="cards-section" id="home">
+        <h2 style="text-align: center; margin-bottom: 2rem;">Featured Services</h2>
+        <div class="cards-container">
+            <div class="card">
+                <div class="card-image">🎨</div>
+                <h3>Design</h3>
+                <p>Creative design solutions for your brand and digital presence</p>
+                <button>Learn More</button>
+            </div>
+            <div class="card">
+                <div class="card-image">💻</div>
+                <h3>Development</h3>
+                <p>Modern web development using latest technologies and frameworks</p>
+                <button>View Projects</button>
+            </div>
+            <div class="card">
+                <div class="card-image">📱</div>
+                <h3>Mobile Apps</h3>
+                <p>Cross-platform mobile applications for iOS and Android devices</p>
+                <button>Get Started</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Grid Layout -->
+    <section class="grid-layout" id="about">
+        <aside class="sidebar">
+            <h3>About Me</h3>
+            <p>Video editor with a passion for creating engaging and dynamic visual stories</p>
+            <ul style="margin-top: 1rem;">
+                <li>3+ years experience</li>
+                <li>Expert in web editing</li>
+            </ul>
+        </aside>
+        <main class="main-content">
+            <h2>Welcome to My Portfolio</h2>
+            <p>I specialize in video editing and creative montage. My skills include cutting, transitions, effects, and storytelling through visuals. I publish my works on TikTok, where I share engaging edits and showcase my passion for bringing ideas to life through video</p>
+        </main>
+    </section>
+
+    <!-- Bootstrap Grid System -->
+    <section class="bootstrap-grid-section" id="bootstrap">
+        <h2 style="text-align: center; margin-bottom: 2rem;">Bootstrap Grid</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="bootstrap-card">
+                        <div class="bootstrap-card-img">📥</div>
+                        <h3>Column 1</h3>
+                        <p>Adaptive column in Bootstrap Grid System</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="bootstrap-card">
+                        <div class="bootstrap-card-img">📥</div>
+                        <h3>Column 2</h3>
+                        <p>Responsive layout using 12-column grid</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 col-lg-4">
+                    <div class="bootstrap-card">
+                        <div class="bootstrap-card-img">📥</div>
+                        <h3>Colomn 3</h3>
+                        <p>Mobile-first approach with Bootstrap</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Image Gallery -->
+    <section class="gallery-section">
+        <h2 style="text-align: center; margin-bottom: 2rem;">Project Gallery</h2>
+        <div class="gallery">
+            <div class="gallery-item">
+                <div class="gallery-image">Project 1</div>
+                <div class="gallery-overlay">
+                    <h4>Website Creator</h4>
+                    <p>Visual Studio Code</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <div class="gallery-image">Project 2</div>
+                <div class="gallery-overlay">
+                    <h4>Mobile App</h4>
+                    <p>Native Programming</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <div class="gallery-image">Project 3</div>
+                <div class="gallery-overlay">
+                    <h4>Web Application</h4>
+                    <p>Web Programming</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <div class="gallery-image">Project 4</div>
+                <div class="gallery-overlay">
+                    <h4>Mobile Web-Site</h4>
+                    <p>Web siter</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <div class="gallery-image">Project 5</div>
+                <div class="gallery-overlay">
+                    <h4>Web Creator</h4>
+                    <p>Programming to Web</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <div class="gallery-image">Project 6</div>
+                <div class="gallery-overlay">
+                    <h4>Analyze to WEB</h4>
+                    <p>Programming to Analyze Web</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <div class="gallery-image">Project 7</div>
+                <div class="gallery-overlay">
+                    <h4>Content Creator</h4>
+                    <p>Content Web Creator</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <div class="gallery-image">Project 8</div>
+                <div class="gallery-overlay">
+                    <h4>Web Sign</h4>
+                    <p>Web Sign System</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <div class="gallery-image">Project 9</div>
+                <div class="gallery-overlay">
+                    <h4>Web Manager</h4>
+                    <p>Web System Manager</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <div class="gallery-image">Project 10</div>
+                <div class="gallery-overlay">
+                    <h4>Web Native Programming</h4>
+                    <p>Web APP Analyzed</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio-section" id="portfolio">
+        <h2 style="text-align: center; margin-bottom: 2rem;">Latest Projects</h2>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 col-lg-8">
+                    <div class="row">
+                        <div class="col-12 col-md-6">
+                            <div class="project-card">
+                                <div class="project-image">Web</div>
+                                <div class="project-content">
+                                    <h3>Web Developer</h3>
+                                    <p>Video editing solutions with creative montage, dynamic effects, and storytelling for any platform</p>
+                                    <button class="project-button">View Details</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <div class="project-card">
+                                <div class="project-image">Web</div>
+                                <div class="project-content">
+                                    <h3>Web Analyze</h3>
+                                    <p>I create projects and analyze the beautiful version of all my work to the maximum specific</p>
+                                    <button class="project-button">View Details</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <aside class="info-sidebar">
+                        <h3>Skills</h3>
+                        <ul style="margin: 1rem 0; list-style: none; padding: 0;">
+                            <li> Web Designer</li>
+                            <li> Editor</li>
+                            <li> Singer</li>
+                        </ul>
+                        <h4 style="margin-top: 2rem;">Contact Info</h4>
+                        <p>Email: bibifati07@example.com</p>
+                        <p>Phone: 8777-777-77-78</p>
+                    </aside>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <p>&copy; 2025 MyPortfolio </p>
+    </footer>
+</body>
+</html>
+
+
+
+<!-- Bootstrap Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand fw-bold" href="#">MyPortfolio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#adaptive">Adaptive Blocks</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#bootstrap">Bootstrap Grid</a></li>
+                <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+
+
+
+
+
+
